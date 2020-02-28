@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin&display=swap');
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    font-family: "Aladin";
+}
+.nav a:hover{
+    background-color: rgba(0, 195, 255, 0.3);
+}
+.main-nav{
+    text-align:center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3)
+}
+.main-header{
+    background-image: url("images/background.jpg");
+    background-size: auto;
+    padding-bottom: 50px;
+}
+.name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    color: white;
+    font-family: "Aladin";
+    font-weight: normal;
+}
+.section-about h2{
+    font-family: "Aladin";
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+.section-about p{
+    text-align: center;
+    font-family: "Aladin";
+    color: black;
+    font-size: 1.5em;
+
+}
+.images-about{
+    float: left;
+    margin: 15px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-image: url("images/background.jpg");
+    background-size: auto;
+    padding: .25em 0;
+}
